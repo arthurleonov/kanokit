@@ -1,0 +1,32 @@
+.header {
+	background-color: #CDE6F4;
+	padding: 50px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+	background: url('../img/headerimg.jpg') center center no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+	&__img {
+		display: block;
+	  max-width: 100%;
+	  height: auto;
+		float: right;
+		width: 320px;
+	}
+	&__title {
+		font-size: 55px;
+		font-weight: bold;
+		color: #ffffff;
+	}
+	&__content {
+		color: #ffffff;
+	}
+	&__button {
+		background: none;
+		color: #ffffff;
+		font-weight: bold;
+		margin-top: 30px;
+		border: 1px solid #ffffff;
+		padding: 10px 30px;
+		border-radius: 6px;
+	}
+}

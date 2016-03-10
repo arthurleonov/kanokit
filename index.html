@@ -1,0 +1,864 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>UI Kit</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+  <link rel="stylesheet" href="system/bootstrap.css">
+  <link rel="stylesheet" href="system/prism.css" />
+  <link rel="stylesheet" href="system/font-awesome.min.css">
+  <link rel="stylesheet" href="system/system.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+
+<div class="container">
+    <div class="topnav">
+      <h1 class="topnav__title">
+            Kanso HTML/CSS Responsive UI Kit
+          </h1>
+      <a href="#" class="topnav__link">Individual Elements</a>
+      <a href="#" class="topnav__link">Login/Register</a>
+      <a href="#" class="topnav__link">Header</a>
+      <a href="#" class="topnav__link">Post Elements</a>
+      <a href="#" class="topnav__link">Blog Elements</a>
+      <a href="#" class="topnav__link">Lists</a>
+    </div>
+    <section class="row">
+
+      <!-- LOGIN BOX -->
+      <div class="col-md-4">
+        <div class="login">
+          <h2 class="login__title">
+                Login
+              </h2>
+          <div class="row login__sociallogin">
+            <div class="col-xs-6 login__sociallogin__svg">
+              <a href="#"><img src="img/twittersignin.svg" /></a>
+            </div>
+            <div class="col-xs-6 login__sociallogin__svg">
+              <a href="#"><img src="img/facebooksignin.svg" /></a>
+            </div>
+          </div>
+          <input class="login__input" type="text" name="username" placeholder="Username">
+          <br/>
+          <input class="login__input" type="password" name="pw" placeholder="Password">
+          <br/>
+          <input class="login__checkbox" checked="checked" id="remember_1" name="remember" type="checkbox">
+          <label class="remember" for="remember_1">
+            <i class="fa fa-check"></i>
+            <span class="labeltext">Remember me?</span>
+          </label>
+          <button class="login__loginbutton">Log in</button>
+          <br/>
+          <a href="#" class="login__forgotpassword">Forgot your password?</a>
+        </div>
+        <div class="code_container">
+          <a class="code_button js-button" data-class="js-login">Show HTML Code</a>
+          <a class="code_button">Go to Scss File</a>
+        </div>
+      </div>
+      <!-- END OF LOGIN BOX -->
+
+      <!-- REGISTRATION BOX -->
+      <div class="col-md-4">
+        <div class="register">
+          <h2 class="register__title">
+            Register your details
+          </h2>
+          <input class="register__input register__input--inline" type="text" name="fname" placeholder="First name">
+          <input class="register__input register__input--inline" type="text" name="fname" placeholder="Last name">
+          <input class="register__input" type="text" name="fname" placeholder="Email adress">
+          <select class="register__select">
+            <option value="tristan">Tristan Da Cunha</option>
+            <option value="island">Inhospitable Island</option>
+            <option value="usa">USA</option>
+            <option value="japan">Japan</option>
+          </select>
+          <select class="register__select register__select--inline">
+            <option value="jan">January</option>
+            <option value="feb">Febuary</option>
+            <option value="march">March</option>
+          </select>
+          <select class="register__select register__select--inline">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <select class="register__select register__select--inline">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <button class="register__regbutton">Log in</button>
+        </div>
+        <div class="code_container">
+          <a class="code_button js-button" data-class="js-register">Show HTML Code</a>
+          <a class="code_button">Go to Scss File</a>
+        </div>
+      </div>
+      <!-- END OF REGISTRATION BOX -->
+
+      <!-- REGISTRATION BOX -->
+      <div class="col-md-4">
+        <div class="reset">
+          <h2 class="reset__title">
+                    Reset your password
+          </h2>
+          <p>
+            We are sorry to hear you lost your password. Please enter your email below and we will sort it out
+          </p>
+          <input class="reset__input" type="text" name="email" placeholder="Enter your e-mail adress">
+          <button class="reset__submitbutton">Submit</button>
+
+        </div>
+        <div class="code_container">
+          <a class="code_button js-button" data-class="js-reset">Show HTML Code</a>
+          <a class="code_button">Go to Scss File</a>
+        </div>
+      </div>
+      <!-- END OF REGISTRATION BOX -->
+    </section>
+
+     <pre class="js-markup js-login">
+      <span class="close-icon js-close fa fa-times"></span>
+      <code class="language-markup">
+              &lt;div class="login">
+                &lt;h2 class="login__title">
+                  Login
+                &lt;/h2>
+                &lt;div class="row login__sociallogin">
+                  &lt;div class="col-xs-6 login__sociallogin__svg">
+                    &lt;a href="#">&lt;img src="img/twittersignin.svg" />&lt;/a>
+                  &lt;/div>
+                  &lt;div class="col-xs-6 login__sociallogin__svg">
+                    &lt;a href="#">&lt;img src="img/facebooksignin.svg" />&lt;/a>
+                  &lt;/div>
+                &lt;/div>
+                &lt;input class="login__input" type="text" name="username" placeholder="Username">
+                &lt;br/>
+                &lt;input class="login__input" type="password" name="pw" placeholder="Password">
+                &lt;br/>
+                &lt;input class="login__checkbox" checked="checked" id="remember_1" name="remember" type="checkbox">
+                &lt;label class="remember" for="remember_1">
+                  &lt;i class="fa fa-check">&lt;/i>
+                  &lt;span class="labeltext">Remember me?&lt;/span>
+                &lt;/label>
+                &lt;button class="login__loginbutton">Log in&lt;/button>
+                &lt;br/>
+                &lt;a href="#" class="login__forgotpassword">Forgot your password?&lt;/a>
+              &lt;/div>
+      </code>
+    </pre>
+
+    <pre class="js-markup js-register">
+      <span class="close-icon js-close fa fa-times"></span>
+      <code class="language-markup">
+        &lt;div class="register">
+          &lt;h2 class="register__title">
+            Register your details
+          &lt;/h2>
+          &lt;input class="register__input register__input--inline" type="text" name="fname" placeholder="First name">
+          &lt;input class="register__input register__input--inline" type="text" name="lname" placeholder="Last name">
+          &lt;input class="register__input" type="text" name="fname" placeholder="Email adress">
+          &lt;select class="register__select">
+            &lt;option value="tristan">Tristan Da Cunha&lt;/option>
+            &lt;option value="island">Inhospitable Island&lt;/option>
+            &lt;option value="usa">USA&lt;/option>
+            &lt;option value="japan">Japan&lt;/option>
+          &lt;/select>
+          &lt;select class="register__select register__select--inline">
+            &lt;option value="jan">January&lt;/option>
+            &lt;option value="feb">Febuary&lt;/option>
+            &lt;option value="march">March&lt;/option>
+          &lt;/select>
+          &lt;select class="register__select register__select--inline">
+            &lt;option value="1">1&lt;/option>
+            &lt;option value="2">2&lt;/option>
+            &lt;option value="3">3&lt;/option>
+          &lt;/select>
+          &lt;select class="register__select register__select--inline">
+            &lt;option value="1">1&lt;/option>
+            &lt;option value="2">2&lt;/option>
+            &lt;option value="3">3&lt;/option>
+          &lt;/select>
+          &lt;button class="register__registerbutton">Log in&lt;/button>
+        &lt;/div>
+      </code>
+    </pre>
+
+    <pre class="js-markup js-reset">
+      <span class="close-icon js-close fa fa-times"></span>
+      <code class="language-markup">
+        &lt;div class="reset">
+          &lt;h2 class="reset__title">
+            Reset your password
+          &lt;/h2>
+          &lt;p>
+            We are sorry to hear you lost your password. Please enter your email below and we will sort it out
+          &lt;/p>
+          &lt;input class="reset__input" type="text" name="email" placeholder="Enter your e-mail adress">
+          &lt;button class="reset__submitbutton">Submit&lt;/button>
+        &lt;/div>
+      </code>
+    </pre>
+
+
+    <section class="row">
+
+      <!-- PRODUCT ITEM-1 -->
+      <div class="col-md-4">
+        <div class="productitem">
+          <h1 class="productitem__title">
+            Round eye glasses
+          </h1>
+          <p class="productitem__content">
+            Human-centered design pitch deck agile food-truck user centered design
+          </p>
+          <img class="productitem__img" src="img/2000x1000.jpg" />
+          <h1 class="productitem__content">
+                $500.00
+              </h1>
+          <button class="productitem__buybutton">Buy</button>
+        </div>
+        <div class="code_container">
+          <a class="code_button js-button" data-class="js-product1">Show HTML Code</a>
+          <a class="code_button">Go to Scss File</a>
+        </div>
+      </div>
+      <!-- END OF PRODUCT ITEM -->
+
+      <!-- PRODUCT ITEM-2 -->
+      <div class="col-md-4">
+        <div class="productitem2">
+          <img class="productitem2__img" src="img/bangolufsen.jpg" />
+          <h2 class="productitem2__title">
+            <a href="">
+              BeoPlay H8
+              <span class="productitem2__price">
+                $425.00
+              </span>
+            </a>
+          </h2>
+          <p>
+            Premium wireless, active noise cancellation
+            <br /> on-ear headphone
+          </p>
+        </div>
+        <div class="code_container">
+          <a class="code_button js-button" data-class="js-product2">Show HTML Code</a>
+          <a class="code_button">Go to Scss File</a>
+        </div>
+      </div>
+      <!-- END OF PRODUCT ITEM-2 -->
+
+      <!-- IMAGE ITEM -->
+      <div class="col-md-4">
+        <div class="imageitem">
+          <div class="imageitem__label">
+            New In
+          </div>
+          <h1 class="imageitem__title">
+            <a href="#">
+              Vanity<br />
+              Black Sneakers
+              <br />
+              $300
+            </a>
+          </h1>
+        </div>
+        <div class="code_container">
+          <a class="code_button js-button" data-class="js-imageitem">Show HTML Code</a>
+          <a class="code_button">Go to Scss File</a>
+        </div>
+      </div>
+      <!-- END OF IMAGE ITEM -->
+    </section>
+
+    <pre class="js-markup js-product1">
+      <span class="close-icon js-close fa fa-times"></span>
+      <code class="language-markup">
+        &lt;div class="productitem">
+          &lt;h1 class="productitem__title">
+            Round eye glasses
+          &lt;/h1>
+          &lt;p class="productitem__content">
+            Human-centered design pitch deck agile food-truck user centered design
+          &lt;/p>
+          &lt;img class="productitem__img" src="img/2000x1000.jpg" />
+          &lt;h1 class="productitem__content">
+            $500.00
+          &lt;/h1>
+          &lt;button class="productitem__buybutton">Buy&lt;/button>
+        &lt;/div>
+      </code>
+    </pre>
+
+    <pre class="js-markup js-product2">
+      <span class="close-icon js-close fa fa-times"></span>
+      <code class="language-markup">
+        &lt;div class="productitem2">
+          &lt;img class="productitem2__img" src="img/bangolufsen.jpg" />
+          &lt;h2 class="productitem2__title">
+            &lt;a href="">
+              BeoPlay H8
+              &lt;span class="productitem2__price">
+                $425.00
+              &lt;/span>
+            &lt;/a>
+          &lt;/h2>
+          &lt;p>
+            Premium wireless, active noise cancellation
+            &lt;br /> on-ear headphone
+          &lt;/p>
+        &lt;/div>
+      </code>
+    </pre>
+
+    <pre class="js-markup js-imageitem">
+      <span class="close-icon js-close fa fa-times"></span>
+      <code class="language-markup">
+        &lt;div class="imageitem">
+          &lt;div class="imageitem__label">
+            New In
+          &lt;/div>
+          &lt;h1 class="imageitem__title">
+            &lt;a href="#">
+              Vanity&lt;br />
+              Black Sneakers
+              &lt;br />
+              $300
+            &lt;/a>
+          &lt;/h1>
+        &lt;/div>
+      </code>
+    </pre>
+
+    <section class="header row">
+      <div class="col-sm-7">
+        <h1 class="header__title">Actionable insight<br/> fund thinker </h1>
+        <p class="header__content">
+          Paradigm latte Steve Jobs bootstrapping entrepreneur big data disrupt waterfall is so 2000 and late. Long shadow minimum viable product sticky note waterfall is so 2000 and late unicorn grok minimum viable product fund.
+        </p>
+        <button class="header__button">Read More</button>
+      </div>
+      <div class="col-sm-5">
+        <img class="header__img" src="img/n6p_angled2.png" />
+      </div>
+    </section>
+    <div class="code_container">
+      <a class="code_button js-button" data-class="js-header">Show HTML Code</a>
+      <a class="code_button">Go to Scss File</a>
+    </div>
+
+    <pre class="js-markup js-header">
+      <span class="close-icon js-close fa fa-times"></span>
+      <code class="language-markup">
+        &lt;div class="col-sm-7">
+          &lt;h1 class="header__title">Actionable insight&lt;br/> fund thinker &lt;/h1>
+          &lt;p class="header__content">
+            Paradigm latte Steve Jobs bootstrapping entrepreneur big data disrupt waterfall is so 2000 and late. Long shadow minimum viable product sticky note waterfall is so 2000 and late unicorn grok minimum viable product fund.
+          &lt;/p>
+          &lt;button class="header__button">Read More&lt;/button>
+        &lt;/div>
+
+        &lt;div class="col-sm-5">
+          &lt;img class="header__img" src="img/n6p_angled2.png" />
+        &lt;/div>
+      </code>
+    </pre>
+
+    <section class="row">
+      <!-- POST ITEM -->
+      <div class="col-md-8">
+        <div class="postitem">
+          <img class="postitem__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+          <div class="postitem__content">
+            <h2 class="postitem__content__title">
+              <a href="#">
+                360 campaign quantitative
+              </a>
+            </h2>
+            <p class="postitem__content__info">
+              Date: <strong>2016/02/15</strong> Author: <strong>John Doe</strong>
+            </p>
+            <p>
+              Affordances sticky note pivot unicorn innovate integrate user centered design viral. Grok affordances cortado pivot physical computing convergence ship it engaging user story. Venture capital sticky note fund cortado ship it minimum viable product fund
+              unicorn food-truck disrupt.
+            </p>
+          </div>
+        </div>
+        <div class="code_container">
+          <a class="code_button js-button" data-class="js-postitem">Show HTML Code</a>
+          <a class="code_button">Go to Scss File</a>
+        </div>
+      </div>
+      <!-- END OF POST ITEM -->
+      <!-- POPULAR POSTS -->
+      <div class="col-md-4">
+        <div class="categories">
+          <h2 class="categories__title">
+            Recent Posts
+          </h2>
+          <div class="row categories__content">
+            <div class="col-xs-5">
+              <img class="categories__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+            </div>
+            <div class="col-xs-7">
+              <h4 class="categories__content__title">
+                <a href="#">
+                  Thinker maker doer iterate personas user story
+                </a>
+              </h4>
+              <p class="categories__content__author">
+                Author: John Doe
+              </p>
+            </div>
+          </div>
+          <div class="row categories__content">
+            <div class="col-xs-5">
+              <img class="categories__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+            </div>
+            <div class="col-xs-7">
+              <h4 class="categories__content__title">
+                <a href="#">
+                  Thinker maker doer iterate personas user story
+                </a>
+              </h4>
+              <p class="categories__content__author">
+                Author: John Doe
+              </p>
+            </div>
+          </div>
+          <div class="row categories__content">
+            <div class="col-xs-5">
+              <img class="categories__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+            </div>
+            <div class="col-xs-7">
+              <h4 class="categories__content__title">
+                <a href="#">
+                  Thinker maker doer iterate personas user story
+                </a>
+              </h4>
+              <p class="categories__content__author">
+                Author: John Doe
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="code_container">
+          <a class="code_button js-button" data-class="js-popularpost">Show HTML Code</a>
+          <a class="code_button">Go to Scss File</a>
+        </div>
+      </div>
+      <!-- END OF POPULAR POSTS -->
+    </section>
+
+    <pre class="js-markup js-postitem">
+      <span class="close-icon js-close fa fa-times"></span>
+      <code class="language-markup">
+        &lt;div class="postitem">
+          &lt;img class="postitem__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+          &lt;div class="postitem__content">
+            &lt;h2 class="postitem__content__title">
+              &lt;a href="#">
+                360 campaign quantitative
+              &lt;/a>
+            &lt;/h2>
+            <&lt;p class="postitem__content__info">
+              Date: &lt;strong>2016/02/15&lt;/strong> Author: &lt;strong>John Doe&lt;/strong>
+            &lt;/p>
+            &lt;p>
+              Affordances sticky note pivot unicorn innovate integrate user centered design viral. Grok affordances cortado pivot physical computing convergence ship it engaging user story. Venture capital sticky note fund cortado ship it minimum viable product fund
+              unicorn food-truck disrupt.
+            &lt;/p>
+          &lt;/div>
+        &lt;/div>
+      </code>
+    </pre>
+
+    <pre class="js-markup js-popularpost">
+      <span class="close-icon js-close fa fa-times"></span>
+        <code class="language-markup">
+          &lt;div class="categories">
+            &lt;h2 class="categories__title">
+              Recent Posts
+            &lt;/h2>
+            &lt;div class="row categories__content">
+              &lt;div class="col-xs-5">
+                &lt;img class="categories__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+              &lt;/div>
+              &lt;div class="col-xs-7">
+                &lt;h4 class="categories__content__title">
+                  &lt;a href="#">
+                    Thinker maker doer iterate personas user story
+                  &lt;/a>
+                &lt;/h4>
+                &lt;p class="categories__content__author">
+                  Author: John Doe
+                &lt;/p>
+              &lt;/div>
+            &lt;/div>
+          &lt;/div>
+        </code>
+    </pre>
+
+
+    <section class="row">
+      <div class="col-xs-12">
+        <div class="list">
+          <div class="list__title hidden-xs">
+            <div class="row">
+              <div class="col-md-1 col-sm-1">
+
+              </div>
+              <div class="col-sm-5 col-md-3">
+                <p>
+                  Name
+                </p>
+              </div>
+              <div class="col-md-4 col-sm-4 hidden-xs">
+                <p>
+                  Occupation
+                </p>
+              </div>
+              <div class="col-md-3 hidden-sm hidden-xs">
+                <p>
+                  Location
+                </p>
+              </div>
+              <div class="col-md-1">
+
+              </div>
+            </div>
+          </div>
+          <div class="list__item">
+            <div class="row">
+              <div class="col-sm-1 col-xs-2">
+                <span class="list__circle"></span>
+              </div>
+              <div class="col-sm-5 col-md-3 col-xs-8">
+                <p>
+                  John Doe
+                </p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-5 hidden-xs">
+                <p>
+                  Developer
+                </p>
+              </div>
+              <div class="col-md-3 hidden-sm hidden-xs">
+                <p>
+                  Vilnius
+                </p>
+              </div>
+              <div class="col-md-1 col-xs-2">
+                <i class="fa fa-angle-right list__arrow"></i>
+              </div>
+            </div>
+          </div>
+          <div class="list__item">
+            <div class="row">
+              <div class="col-sm-1 col-xs-2">
+                <span class="list__circle"></span>
+              </div>
+              <div class="col-sm-5 col-md-3 col-xs-8">
+                <p>
+                  John Doe
+                </p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-5 hidden-xs">
+                <p>
+                  Developer
+                </p>
+              </div>
+              <div class="col-md-3 hidden-sm hidden-xs">
+                <p>
+                  Vilnius
+                </p>
+              </div>
+              <div class="col-md-1 col-xs-2">
+                <i class="fa fa-angle-right list__arrow"></i>
+              </div>
+            </div>
+          </div>
+          <div class="list__item">
+            <div class="row">
+              <div class="col-sm-1 col-xs-2">
+                <span class="list__circle"></span>
+              </div>
+              <div class="col-sm-5 col-md-3 col-xs-8">
+                <p>
+                  John Doe
+                </p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-5 hidden-xs">
+                <p>
+                  Developer
+                </p>
+              </div>
+              <div class="col-md-3 hidden-sm hidden-xs">
+                <p>
+                  Vilnius
+                </p>
+              </div>
+              <div class="col-md-1 col-xs-2">
+                <i class="fa fa-angle-right list__arrow"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="code_container">
+        <a class="code_button js-button" data-class="js-list">Show HTML Code</a>
+        <a class="code_button">Go to Scss File</a>
+      </div>
+    </section>
+
+
+    <pre class="js-markup js-list">
+      <span class="close-icon js-close fa fa-times"></span>
+        <code class="language-markup">
+          &lt;div class="list">
+            &lt;div class="list__title hidden-xs">
+              &lt;div class="row">
+                &lt;div class="col-md-1 col-sm-1">
+
+                &lt;/div>
+                &lt;div class="col-sm-5 col-md-3">
+                  &lt;p>
+                    Name
+                  &lt;/p>
+                &lt;/div>
+                &lt;div class="col-md-4 col-sm-4 hidden-xs">
+                  &lt;p>
+                    Occupation
+                  &lt;/p>
+                &lt;/div>
+                &lt;div class="col-md-3 hidden-sm hidden-xs">
+                  &lt;p>
+                    Location
+                  &lt;/p>
+                &lt;/div>
+                &lt;div class="col-md-1">
+
+                &lt;/div>
+              &lt;/div>
+            &lt;/div>
+            &lt;div class="list__item">
+              &lt;div class="row">
+                &lt;div class="col-sm-1 col-xs-2">
+                  &lt;span class="list__circle">&lt;/span>
+                &lt;/div>
+                &lt;div class="col-sm-5 col-md-3 col-xs-8">
+                  &lt;p>
+                    John Doe
+                  &lt;/p>
+                &lt;/div>
+                &lt;div class="col-md-4 col-sm-4 col-xs-5 hidden-xs">
+                  &lt;p>
+                    Developer
+                  &lt;/p>
+                &lt;/div>
+                &lt;div class="col-md-3 hidden-sm hidden-xs">
+                  &lt;p>
+                    Vilnius
+                  &lt;/p>
+                &lt;/div>
+                &lt;div class="col-md-1 col-xs-2">
+                  &lt;i class="fa fa-angle-right list__arrow">&lt;/i>
+                &lt;/div>
+              &lt;/div>
+            &lt;/div>
+          &lt;/div>
+        </code>
+      </pre>
+
+
+    <section class="row footer">
+      <div class="col-sm-3">
+        <h2 class="footer__logo">
+          KANSO<br />
+          HTML/CSS<br />
+          Responsive UI Kit
+        </h2>
+      </div>
+      <div class="col-sm-3">
+        <h4 class="footer__title">
+          Useful Links
+        </h4>
+        <ul class="footer__list">
+          <li>
+            <a class="footer__link" hred="#">
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="footer__link" hred="#">
+              About us
+            </a>
+          </li>
+          <li>
+            <a class="footer__link" hred="#">
+              Shop
+            </a>
+          </li>
+          <li>
+            <a class="footer__link" hred="#">
+              Blog
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h4 class="footer__title">
+          Contact Us
+        </h4>
+        <ul class="footer__list">
+          <li>
+            By Email:
+            <a class="footer__link" href="mailto:someone@example.com?Subject=Hello%20again">john@doe.com</a>
+          </li>
+          <li>
+            By Phone:
+            <a class="footer__link" href="tel:555-555-5555">555 2453 5467</a>
+          </li>
+          <li>
+            Our Adress is:
+            <a class="footer__link" href="#">55 Brick Lane, Shoreditch, London, United Kingdom</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h4 class="footer__title">
+          Follow US
+        </h4>
+        <a class="footer__link" href="#">
+          <i class="fa fa-facebook-square"></i>
+        </a>
+        <a class="footer__link" href="#">
+          <i class="fa fa-twitter-square"></i>
+        </a>
+        <a class="footer__link" href="#">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+        <a class="footer__link" href="#">
+          <i class="fa fa-youtube-square"></i>
+        </a>
+      </div>
+    </section>
+    <div class="code_container">
+      <a class="code_button js-button" data-class="js-footer">Show HTML Code</a>
+      <a class="code_button">Go to Scss File</a>
+    </div>
+
+
+    <pre class="js-markup js-footer">
+      <span class="close-icon js-close fa fa-times"></span>
+        <code class="language-markup">
+            &lt;div class="col-sm-3">
+              &lt;h2 class="footer__logo">
+              KANSO &lt;br/>
+              HTML/CSS &lt;br/>
+              Responsive UI Kit
+              &lt;/h2>
+          &lt;/div>
+          &lt;div class="col-sm-3">
+            &lt;h4 class="footer__title">
+              Useful Links
+            &lt;/h4>
+            &lt;ul class="footer__list">
+              &lt;li>
+                &lt;a class="footer__link" hred="#">
+                  Home
+                &lt;/a>
+              &lt;/li>
+              &lt;li>
+                &lt;a class="footer__link" hred="#">
+                  About us
+                &lt;/a>
+              &lt;/li>
+              &lt;li>
+                &lt;a class="footer__link" hred="#">
+                  Shop
+                &lt;/a>
+              &lt;/li>
+              &lt;li>
+                &lt;a class="footer__link" hred="#">
+                  Blog
+                &lt;/a>
+              &lt;/li>
+            &lt;/ul>
+          &lt;/div>
+          &lt;div class="col-sm-3">
+            &lt;h4 class="footer__title">
+              Contact Us
+            &lt;/h4>
+            &lt;ul class="footer__list">
+              &lt;li>
+                By Email:
+                &lt;a class="footer__link" href="mailto:someone@example.com?Subject=Hello%20again">john@doe.com&lt;/a>
+              &lt;/li>
+              &lt;li>
+                By Phone:
+                &lt;a class="footer__link" href="tel:555-555-5555">555 2453 5467&lt;/a>
+              &lt;/li>
+              &lt;li>
+                Our Adress is:
+                &lt;a class="footer__link" href="#">55 Brick Lane, Shoreditch, London, United Kingdom&lt;/a>
+              &lt;/li>
+            &lt;/ul>
+          &lt;/div>
+          &lt;div class="col-sm-3">
+            &lt;h4 class="footer__title">
+              Follow US
+            &lt;/h4>
+            &lt;a class="footer__link" href="#">
+              &lt;i class="fa fa-facebook-square">&lt;/i>
+            &lt;/a>
+            &lt;a class="footer__link" href="#">
+              &lt;i class="fa fa-twitter-square">&lt;/i>
+            &lt;/a>
+            &lt;a class="footer__link" href="#">
+              &lt;i class="fa fa-linkedin-square">&lt;/i>
+            &lt;/a>
+            &lt;a class="footer__link" href="#">
+              &lt;i class="fa fa-youtube-square">&lt;/i>
+            &lt;/a>
+          &lt;/div>
+        </code>
+    </pre>
+
+
+
+
+
+
+
+
+</div>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+  </script>
+  <script src="js/prism.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+   $(document).ready(function(){
+      codepre.init();
+   });
+   </script>
+</body>
+
+</html>

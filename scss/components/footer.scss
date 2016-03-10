@@ -1,0 +1,37 @@
+.footer {
+	background-color: #272727;
+	padding: 40px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+	margin-bottom: 100px;
+	&__logo {
+		line-height: 28px;
+    color: #b1b1b1;
+	}
+	&__title {
+		color: #b1b1b1;
+		border-bottom: 1px solid #b1b1b1;
+		padding-bottom: 10px;
+		margin-bottom: 0px;
+	}
+	&__list {
+		text-decoration: none;
+    list-style: none;
+    padding-left: 0px;
+		color: #b1b1b1;
+	}
+	&__link {
+		color: white;
+    margin-bottom: 5px;
+    display: inline-block;
+		transition: all 0.2s ease-in-out;
+		&:hover {
+			text-decoration: none;
+			cursor: pointer;
+			color: #b1b1b1;
+		}
+	}
+	.fa {
+		font-size: 40px;
+		padding: 12px 3px;
+	}
+}

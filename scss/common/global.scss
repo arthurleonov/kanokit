@@ -1,0 +1,35 @@
+body, html {
+ font-size: 14px;
+ background-color: #F5F5F5;
+}
+
+a {
+  color: #818490;
+  &:hover {
+      color: #3D404E;
+  }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.topnav {
+  padding: 50px;
+  text-align: center;
+  &__title {
+    display: block;
+  }
+  &__link {
+    padding-right: 15px;
+  }
+}
+
+
+section {
+  margin-top: 100px;
+}
+
+section:first-of-type {
+  margin-top: 0;
+}

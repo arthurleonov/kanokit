@@ -1,0 +1,116 @@
+.login {
+	background-color: #ffffff;
+	padding: 15px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+	&__title {
+		text-align: center;
+	}
+	&__sociallogin {
+		padding: 15px 0;
+		border-bottom: 1px solid #DCE3EF;
+		text-align: center;
+		&__svg:not(:last-child) {
+			border-right: 1px solid #DCE3EF;  // prevents border right from repeating.
+		}
+		img {
+			max-width: 180px; // prevents the image from jumping around when resizing
+		}
+	} // facebook and twitter buttons
+	&__input {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 15px;
+		padding: 10px;
+		border: 1px solid #C9D2E0;
+		border-radius: 3px;
+		transition: border 0.2s;
+		color: #747A84;
+		&:focus {
+			outline: 0;
+			border: 1px solid #96CA2D;
+		}
+	}
+	&__loginbutton {
+		width: 100%;
+		margin: 10px 0;
+		padding: 10px;
+		border: none;
+		border-radius: 3px;
+		background-color: #96CA2D;
+		color: #fff;
+		font-weight: bold;
+		transition: background-color 0.3s;
+		&:hover, &:focus {
+			background-color: #79A029;
+			outline:0;
+		}
+	}
+	&__forgotpassword {
+		font-size: 12px;
+		display: block;
+		text-align: center;
+		padding-top: 5px;
+	}
+	//// custom checkbox /////
+	&__checkbox {
+		display: none; // hides the original element so a new one could take its place
+	}
+	label {
+		cursor: pointer;
+		position: relative;
+		border-radius: 4px;
+		width: 25px;
+		height: 25px;
+		margin: 10px 0;
+		border: 1px solid #C8C9CE;
+		transition: all .3s ease-in-out;
+		font-size: 12pt;
+		color: #FFF;
+		display: block;
+		&.check {
+			border-radius: 5px;
+		}
+		.fa {
+			position: absolute;
+			color: #70727c;
+			top: 0; left: 0; right: 0; bottom: 0;
+			opacity: 0;
+			transform: scale(0);
+			transition: all .3s ease-in-out;
+			line-height: 24px;
+			text-align: center;
+		} // grabs the font awesome icon. replace this with your icon class
+		.labeltext {
+			padding-left: 28px;
+			width: 200px;
+			display: block;
+			font-size: 13px;
+			padding-top: 3px;
+		}
+	}
+	input:checked + label {
+		background: shade(#369,15%);
+		.fa {
+			opacity: 1;
+			transform: scale(1);
+		}
+	}
+	///// custom checkbox ///
+
+	// styling the placeholder text //
+	::-webkit-input-placeholder {
+   color: #b0bed1;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #b0bed1;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #b0bed1;
+	}
+	:-ms-input-placeholder {
+	   color: #b0bed1;
+	}
+	// styling the place holder text //
+
+}

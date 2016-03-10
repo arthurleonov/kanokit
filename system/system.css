@@ -1,0 +1,39 @@
+.code_container {
+	text-align: center;
+	display: block;
+	margin-top: 15px;
+}
+
+.code_container .code_button {
+	border-radius: 3px;
+	padding: 7px;
+	display: inline-block;
+	transition: all .2s;
+}
+
+
+.code_container .code_button:hover {
+	background-color: lightgrey;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.js-markup {
+	display: none;
+	position: relative;
+}
+
+.close-icon {
+	color: white;
+	position: absolute;
+	font-size: 40px;
+	right: 10px;
+	top: 10px;
+	transition: color 0.2s;
+}
+
+.close-icon:hover {
+	color: lightgrey;
+	cursor: pointer;
+}
