@@ -1,12 +1,15 @@
 .productitem {
-	background-color: #ffffff;
+	display: block;
 	padding: 15px;
-	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+	background-color: #ffffff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 	text-align: center;
 	transition: all 0.2s ease-in-out;
 	&:hover {
 		transform: translateY(-10px);
-		box-shadow: 0 20px 40px rgba(0,0,0,0.2);;
+		box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+		text-decoration: none;
+		color: inherit;
 	}
 	&__title {
 		display: block;
@@ -18,18 +21,16 @@
 	  height: auto;
 	}
 	&__buybutton {
-		margin: 20px 0px;
 		display: block;
-		margin: 0 auto;
 		width: 50%;
-		background-color: #96CA2D;
 		padding: 10px;
-		color: #fff;
+		margin: 0 auto;
+		background-color: #96CA2D;
 		border: none;
 		border-radius: 3px;
+		color: #fff;
 		font-weight: bold;
 		transition: background-color 0.3s;
-		margin-bottom: 15px;
 		&:hover {
 			background-color: #79A029;
 		}

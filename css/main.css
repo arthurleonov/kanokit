@@ -330,11 +330,11 @@ p, span {
 }
 
 .imageitem {
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  display: block;
+  position: relative;
   height: 30rem;
   width: 100%;
-  position: relative;
-  display: block;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
   background: url("../img/captinvanity.jpg") center center no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
@@ -345,6 +345,8 @@ p, span {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: inherit;
 }
 .imageitem:before {
   content: '';
@@ -355,7 +357,7 @@ p, span {
   display: inline-block;
   background: linear-gradient(to bottom, transparent 35%, rgba(0, 0, 0, 0.68) 100%);
 }
-.imageitem__title a {
+.imageitem__title {
   position: absolute;
   bottom: 20px;
   line-height: 35px;
@@ -364,7 +366,7 @@ p, span {
   color: white;
   transition: all 0.2s ease-in-out;
 }
-.imageitem__title a:hover, .imageitem__title a:focus {
+.imageitem__title:hover, .imageitem__title:focus {
   color: #dddddd;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.23);
   text-decoration: none;
@@ -382,9 +384,10 @@ p, span {
 }
 
 .productitem {
-  background-color: #ffffff;
+  display: block;
   padding: 15px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
@@ -392,6 +395,8 @@ p, span {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: inherit;
 }
 .productitem__title {
   display: block;
@@ -403,18 +408,16 @@ p, span {
   height: auto;
 }
 .productitem__buybutton {
-  margin: 20px 0px;
   display: block;
-  margin: 0 auto;
   width: 50%;
-  background-color: #96CA2D;
   padding: 10px;
-  color: #fff;
+  margin: 0 auto;
+  background-color: #96CA2D;
   border: none;
   border-radius: 3px;
+  color: #fff;
   font-weight: bold;
   transition: background-color 0.3s;
-  margin-bottom: 15px;
 }
 .productitem__buybutton:hover {
   background-color: #79A029;
@@ -424,54 +427,36 @@ p, span {
 }
 
 .productitem2 {
-  background-color: #ffffff;
+  display: block;
   padding: 15px;
+  background-color: #ffffff;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
   text-align: center;
-  overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
 .productitem2:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: inherit;
 }
 .productitem2__img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.productitem2__title a {
-  transition: all .1s ease-in-out;
+.productitem2__title {
   text-decoration: none;
+  transition: all .1s ease-in-out;
 }
-.productitem2__title a:hover, .productitem2__title a:focus {
+.productitem2__title:hover, .productitem2__title:focus {
   color: #3D404E;
 }
 .productitem2__price {
   display: block;
   color: #539EDE;
   font-weight: bold;
-}
-.productitem2__buybutton {
-  margin: 20px 0px;
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  background-color: #96CA2D;
-  padding: 10px;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  font-weight: bold;
-  transition: background-color 0.3s;
-  margin-bottom: 15px;
-}
-.productitem2__buybutton:hover {
-  background-color: #79A029;
-}
-.productitem2__buybutton:focus {
-  outline: 0;
 }
 
 .categories {
