@@ -26,7 +26,7 @@ gulp.task('sass', function () {
       style: 'expanded'
     })
     .on('error', sass.logError)
-    .pipe(autoprefixer({ browsers: ['last 2 versions'] }))
+    .pipe(autoprefixer({ browsers: ['> 5%'] }))
     .pipe(concat('main.css'))
     .pipe(gulp.dest('css'))
     .pipe(notify('CSS compiled, prefixed, and minified.'))

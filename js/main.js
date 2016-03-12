@@ -7,17 +7,12 @@ var codepre = function() {
   return {
     init: function (configuration) {
       if(typeof configuration === 'undefined')
-        configuration = {};
+      configuration = {};
       config = $.extend(true, defaults, configuration);
-      // dropdown.showHideDropdown();
       codepre.toggle();
       codepre.closeCode();
     },
     toggle: function() {
-      // $(defaults.htmlbtn).on('click', function() {
-      //   var tog = $(this).attr("data-class");
-      //   $("." + tog).slideToggle("fast");
-
       $(defaults.htmlbtn).on('click', function() {
 
         var tog = $(this).attr("data-class");

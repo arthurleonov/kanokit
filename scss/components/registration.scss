@@ -18,19 +18,34 @@
 		}
 	}
 	&__select {
-			width: 100%;
-			height: 40px;
-	    margin: 0 auto;
-	    margin-top: 15px;
-			padding: 10px;
-	    border: 1px solid #C9D2E0;
-	    border-radius: 3px;
-			color: #747A84;
-	    transition: border 0.2s;
-	    background-color: inherit;
-		&:focus {
-			outline: 0;
-			border: 1px solid #96CA2D;
+		width: 100%;
+		height: 40px;
+    margin: 0 auto;
+		position: relative;
+    margin-top: 15px;
+		padding: 2px;
+    border: 1px solid #C9D2E0;
+    border-radius: 3px;
+		color: #747A84;
+    transition: border 0.2s;
+    background-color: inherit;
+		overflow: hidden;
+		span {
+			position: absolute;
+			right: 7px;
+			width: 10px;
+			height: 8px;
+			top: 34%;
+		}
+		select {
+			 appearance:none;
+			 width:120%;
+			 background:none;
+			 background:transparent;
+			 border:none;
+			 outline:none;
+			 cursor:pointer;
+			 padding:7px 10px;
 		}
 	}
 	&__select--inline { // a style for the select field to be on one line

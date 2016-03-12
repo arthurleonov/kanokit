@@ -71,6 +71,7 @@ p, span {
   padding: 10px;
   border: 1px solid #C9D2E0;
   border-radius: 3px;
+  -webkit-transition: border 0.2s;
   transition: border 0.2s;
   color: #747A84;
 }
@@ -87,6 +88,7 @@ p, span {
   background-color: #96CA2D;
   color: #fff;
   font-weight: bold;
+  -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
 .login__loginbutton:hover, .login__loginbutton:focus {
@@ -110,6 +112,7 @@ p, span {
   height: 25px;
   margin: 10px 0;
   border: 1px solid #C8C9CE;
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   font-size: 12pt;
   color: #FFF;
@@ -128,6 +131,7 @@ p, span {
   opacity: 0;
   -webkit-transform: scale(0);
           transform: scale(0);
+  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   line-height: 24px;
   text-align: center;
@@ -176,6 +180,7 @@ p, span {
   border: 1px solid #C9D2E0;
   border-radius: 3px;
   color: #747A84;
+  -webkit-transition: border 0.2s;
   transition: border 0.2s;
 }
 .register__input:focus {
@@ -186,17 +191,34 @@ p, span {
   width: 100%;
   height: 40px;
   margin: 0 auto;
+  position: relative;
   margin-top: 15px;
-  padding: 10px;
+  padding: 2px;
   border: 1px solid #C9D2E0;
   border-radius: 3px;
   color: #747A84;
+  -webkit-transition: border 0.2s;
   transition: border 0.2s;
   background-color: inherit;
+  overflow: hidden;
 }
-.register__select:focus {
-  outline: 0;
-  border: 1px solid #96CA2D;
+.register__select span {
+  position: absolute;
+  right: 7px;
+  width: 10px;
+  height: 8px;
+  top: 34%;
+}
+.register__select select {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 120%;
+  background: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 10px;
 }
 .register__select--inline {
   width: inherit;
@@ -222,6 +244,7 @@ p, span {
   background-color: #96CA2D;
   color: #fff;
   font-weight: bold;
+  -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
 .register__regbutton:hover {
@@ -260,6 +283,7 @@ p, span {
   border-radius: 3px;
   color: #747A84;
   padding: 10px;
+  -webkit-transition: border 0.2s;
   transition: border 0.2s;
 }
 .reset__input:focus {
@@ -275,6 +299,7 @@ p, span {
   border: none;
   border-radius: 3px;
   font-weight: bold;
+  -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
 .reset__submitbutton:hover {
@@ -316,6 +341,7 @@ p, span {
   margin-top: 0;
 }
 .postitem__content__title a {
+  -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 .postitem__content__title a:hover, .postitem__content__title a:focus {
@@ -334,16 +360,17 @@ p, span {
   position: relative;
   height: 30rem;
   width: 100%;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   background: url("../img/captinvanity.jpg") center center no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .imageitem:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+  -webkit-transform: translateY(-11px);
+          transform: translateY(-11px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   color: inherit;
@@ -355,6 +382,7 @@ p, span {
   width: 100%;
   height: 100%;
   display: inline-block;
+  background: -webkit-linear-gradient(top, transparent 35%, rgba(0, 0, 0, 0.68) 100%);
   background: linear-gradient(to bottom, transparent 35%, rgba(0, 0, 0, 0.68) 100%);
 }
 .imageitem__title {
@@ -364,6 +392,7 @@ p, span {
   left: 15px;
   width: 100%;
   color: white;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .imageitem__title:hover, .imageitem__title:focus {
@@ -377,10 +406,13 @@ p, span {
   position: absolute;
   top: 15px;
   right: 15px;
-  color: #424242;
-  background-color: #F3F3F3;
-  padding: 10px;
-  border-radius: 7px;
+  color: #ffffff;
+  background-color: #D95555;
+  opacity: 0.8;
+  padding: 19px 17px;
+  width: 60px;
+  height: 60px;
+  border-radius: 79%;
 }
 
 .productitem {
@@ -389,6 +421,7 @@ p, span {
   background-color: #ffffff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .productitem:hover {
@@ -417,6 +450,7 @@ p, span {
   border-radius: 3px;
   color: #fff;
   font-weight: bold;
+  -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
 .productitem__buybutton:hover {
@@ -432,6 +466,7 @@ p, span {
   background-color: #ffffff;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
   text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .productitem2:hover {
@@ -448,6 +483,7 @@ p, span {
 }
 .productitem2__title {
   text-decoration: none;
+  -webkit-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
 }
 .productitem2__title:hover, .productitem2__title:focus {
@@ -587,6 +623,7 @@ p, span {
   color: white;
   margin-bottom: 5px;
   display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .footer__link:hover {

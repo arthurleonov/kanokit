@@ -81,27 +81,48 @@
           <input class="register__input register__input--inline" type="text" name="fname" placeholder="First name">
           <input class="register__input register__input--inline" type="text" name="fname" placeholder="Last name">
           <input class="register__input" type="text" name="fname" placeholder="Email adress">
-          <select class="register__select">
-            <option value="tristan">Tristan Da Cunha</option>
-            <option value="island">Inhospitable Island</option>
-            <option value="usa">USA</option>
-            <option value="japan">Japan</option>
-          </select>
-          <select class="register__select register__select--inline">
-            <option value="jan">January</option>
-            <option value="feb">Febuary</option>
-            <option value="march">March</option>
-          </select>
-          <select class="register__select register__select--inline">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-          </select>
-          <select class="register__select register__select--inline">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-          </select>
+          <div class="register__select">
+            <select>
+              <option value="tristan">Tristan Da Cunha</option>
+              <option value="island">Inhospitable Island</option>
+              <option value="usa">USA</option>
+              <option value="japan">Japan</option>
+            </select>
+            <span class="fa fa-caret-down"></span>
+          </div>
+          <div class="register__select">
+            <select>
+              <option value="tristan">Tristan Da Cunha</option>
+              <option value="island">Inhospitable Island</option>
+              <option value="usa">USA</option>
+              <option value="japan">Japan</option>
+            </select>
+            <span class="fa fa-caret-down"></span>
+          </div>
+          <div class="register__select register__select--inline">
+            <select>
+              <option value="jan">January</option>
+              <option value="feb">Febuary</option>
+              <option value="march">March</option>
+            </select>
+            <span class="fa fa-caret-down"></span>
+          </div>
+          <div class="register__select register__select--inline">
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <span class="fa fa-caret-down"></span>
+          </div>
+          <div class="register__select register__select--inline">
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <span class="fa fa-caret-down"></span>
+          </div>
           <button class="register__regbutton">Log in</button>
         </div>
         <div class="code_container">
@@ -243,7 +264,7 @@
       <div class="col-md-4">
         <a href="#" class="imageitem">
           <div class="imageitem__label">
-            New In
+            Sale
           </div>
           <h1 class="imageitem__title">
               Vanity<br />
@@ -327,7 +348,7 @@
       <code class="language-markup">
         &lt;a href="#" class="imageitem">
           &lt;div class="imageitem__label">
-            New In
+            Sale
           &lt;/div>
           &lt;h1 class="imageitem__title">
             Vanity&lt;br />
@@ -359,19 +380,18 @@
     <pre class="js-markup js-header">
       <span class="close-icon js-close fa fa-times"></span>
       <code class="language-markup">
-        &lt;div class="col-sm-7">
-          &lt;h1 class="header__title">Actionable insight&lt;br/> fund thinker &lt;/h1>
-          &lt;p class="header__content">
-            Paradigm latte Steve Jobs bootstrapping entrepreneur big data disrupt waterfall is so 2000 and late.
-            Long shadow minimum viable product sticky note waterfall is so 2000 and late unicorn
-            grok minimum viable product fund.
-          &lt;/p>
-          &lt;button class="header__button">Read More&lt;/button>
-        &lt;/div>
-
-        &lt;div class="col-sm-5">
-          &lt;img class="header__img" src="img/n6p_angled2.png" />
-        &lt;/div>
+          &lt;section class="header row">
+            &lt;div class="col-sm-7">
+              &lt;h1 class="header__title">Actionable insight &lt;br/> fund thinker &lt;/h1>
+              &lt;p class="header__content">
+              Paradigm latte Steve Jobs bootstrapping entrepreneur big data disrupt waterfall is so 2000 and late.Long shadow minimum viable product sticky note waterfall is so 2000 and late unicorn grok minimum viable product fund.
+              &lt;/p>
+              &lt;button class="header__button">Read More &lt;/button>
+          &lt;/div>
+          &lt;div class="col-sm-5">
+            &lt;img class="header__img" src="img/n6p_angled2.png" />
+          &lt;/div>
+        &lt;/section>
       </code>
     </pre>
 
