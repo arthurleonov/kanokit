@@ -1,0 +1,32 @@
+.checkbox {
+	display: block;
+	&__checkbox {
+			display: none; // hides the original element so a new one could take its place
+	}
+	label {
+		cursor: pointer;
+		position: relative;
+		border-radius: 4px;
+		width: 25px;
+		height: 25px;
+		margin: 10px 0;
+		border: 1px solid #C8C9CE;
+		transition: all .3s ease-in-out;
+		font-size: 12pt;
+		color: #FFF;
+		display: block;
+		&.check {
+			border-radius: 5px;
+		}
+		.fa {
+			position: absolute;
+			color: #70727c;
+			top: 0; left: 0; right: 0; bottom: 0;
+			opacity: 0;
+			transform: scale(0);
+			transition: all .3s ease-in-out;
+			line-height: 24px;
+			text-align: center;
+		} // grabs the font awesome icon. replace this with your icon class
+	}
+}
