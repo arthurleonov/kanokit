@@ -52,6 +52,7 @@ p, span {
 }
 .login__title {
   text-align: center;
+  font-size: 20rem;
 }
 .login__sociallogin {
   padding: 15px 0;
