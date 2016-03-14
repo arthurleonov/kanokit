@@ -1,4 +1,4 @@
-.categories {
+.recentpost {
 	background-color: #ffffff;
 	margin-top: 30px;
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
@@ -22,6 +22,7 @@
 		}
 		&__author {
 			color: grey;
+			padding-top: 10px;
 			font-size: 11px;
 		}
 	}

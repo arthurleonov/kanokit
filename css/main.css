@@ -270,7 +270,6 @@ p, span {
 
 .reset {
   padding: 15px;
-  margin-bottom: 30px;
   background-color: #ffffff;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
   text-align: center;
@@ -352,7 +351,7 @@ p, span {
   font-size: 11px;
   color: #B7B5B5;
   margin-top: 5px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .imageitem {
@@ -388,7 +387,7 @@ p, span {
 .imageitem__title {
   position: absolute;
   bottom: 20px;
-  line-height: 35px;
+  line-height: 40px;
   left: 15px;
   width: 100%;
   color: white;
@@ -495,46 +494,52 @@ p, span {
   font-weight: bold;
 }
 
-.categories {
+.recentpost {
   background-color: #ffffff;
   margin-top: 30px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
 }
-.categories__title {
+.recentpost__title {
   margin-bottom: 10px;
   padding: 15px;
   margin-top: 0;
   display: block;
   border-bottom: 1px solid lightgrey;
 }
-.categories__img {
+.recentpost__img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.categories__content {
+.recentpost__content {
   padding: 10px 15px;
 }
-.categories__content__title {
+.recentpost__content__title {
   margin-top: 0;
   margin-bottom: 0;
 }
-.categories__content__author {
+.recentpost__content__author {
   color: grey;
+  padding-top: 10px;
   font-size: 11px;
 }
 
 .list {
   background-color: #ffffff;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
 }
 .list__title {
   font-weight: bold;
   color: grey;
+  padding-top: 10px;
   border-bottom: 1px solid lightgrey;
 }
 .list__item {
   border-bottom: 1px solid lightgrey;
+}
+.list__variable {
+  margin-top: 10px;
 }
 .list__circle {
   background: lightgreen;
@@ -543,13 +548,13 @@ p, span {
   border-radius: 50%;
   margin: 0 auto;
   display: block;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 15px;
 }
 .list__arrow {
   font-size: 35px;
   display: block;
-  padding-top: 7px;
+  padding-top: 2px;
   text-align: right;
   padding-right: 14px;
 }
@@ -601,10 +606,9 @@ p, span {
   background-color: #272727;
   padding: 40px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
-  margin-bottom: 100px;
 }
 .footer__logo {
-  line-height: 28px;
+  line-height: 35px;
   color: #b1b1b1;
 }
 .footer__title {
@@ -617,6 +621,7 @@ p, span {
   text-decoration: none;
   list-style: none;
   padding-left: 0px;
+  padding-top: 20px;
   color: #b1b1b1;
 }
 .footer__link {

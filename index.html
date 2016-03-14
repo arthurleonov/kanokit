@@ -13,7 +13,8 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
-  <link rel="stylesheet" href="system/bootstrap.css">
+  <!-- <link rel="stylesheet" href="system/bootstrap.css"> -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="system/prism.css" />
   <link rel="stylesheet" href="system/font-awesome.min.css">
   <link rel="stylesheet" href="system/system.css">
@@ -389,7 +390,7 @@
         </p>
         <button class="header__button">Read More</button>
       </div>
-      <div class="col-sm-5">
+      <div class="col-sm-5 hidden-sm hidden-xs">
         <img class="header__img" src="img/n6p_angled2.png" />
       </div>
     </section>
@@ -409,7 +410,7 @@
               &lt;/p>
               &lt;button class="header__button">Read More &lt;/button>
           &lt;/div>
-          &lt;div class="col-sm-5">
+          &lt;div class="col-sm-5 hidden-sm hidden-xs">
             &lt;img class="header__img" src="img/n6p_angled2.png" />
           &lt;/div>
         &lt;/section>
@@ -444,51 +445,51 @@
       <!-- END OF POST ITEM -->
       <!-- POPULAR POSTS -->
       <div class="col-md-4">
-        <div class="categories">
-          <h2 class="categories__title">
+        <div class="recentpost">
+          <h2 class="recentpost__title">
             Recent Posts
           </h2>
-          <div class="row categories__content">
+          <div class="row recentpost__content">
             <div class="col-xs-5">
-              <img class="categories__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+              <img class="recentpost__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
             </div>
             <div class="col-xs-7">
-              <h4 class="categories__content__title">
+              <h4 class="recentpost__content__title">
                 <a href="#">
                   Thinker maker doer iterate personas user story
                 </a>
               </h4>
-              <p class="categories__content__author">
+              <p class="recentpost__content__author">
                 Author: John Doe
               </p>
             </div>
           </div>
-          <div class="row categories__content">
+          <div class="row recentpost__content">
             <div class="col-xs-5">
-              <img class="categories__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+              <img class="recentpost__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
             </div>
             <div class="col-xs-7">
-              <h4 class="categories__content__title">
+              <h4 class="recentpost__content__title">
                 <a href="#">
                   Thinker maker doer iterate personas user story
                 </a>
               </h4>
-              <p class="categories__content__author">
+              <p class="recentpost__content__author">
                 Author: John Doe
               </p>
             </div>
           </div>
-          <div class="row categories__content">
+          <div class="row recentpost__content">
             <div class="col-xs-5">
-              <img class="categories__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+              <img class="recentpost__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
             </div>
             <div class="col-xs-7">
-              <h4 class="categories__content__title">
+              <h4 class="recentpost__content__title">
                 <a href="#">
                   Thinker maker doer iterate personas user story
                 </a>
               </h4>
-              <p class="categories__content__author">
+              <p class="recentpost__content__author">
                 Author: John Doe
               </p>
             </div>
@@ -528,21 +529,21 @@
     <pre class="js-markup js-popularpost">
       <span class="close-icon js-close fa fa-times"></span>
         <code class="language-markup">
-          &lt;div class="categories">
-            &lt;h2 class="categories__title">
+          &lt;div class="recentpost">
+            &lt;h2 class="recentpost__title">
               Recent Posts
             &lt;/h2>
-            &lt;div class="row categories__content">
+            &lt;div class="row recentpost__content">
               &lt;div class="col-xs-5">
-                &lt;img class="categories__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
+                &lt;img class="recentpost__img" src="img/mb_ms_f1_rosberg_strogalski.jpg" />
               &lt;/div>
               &lt;div class="col-xs-7">
-                &lt;h4 class="categories__content__title">
+                &lt;h4 class="recentpost__content__title">
                   &lt;a href="#">
                     Thinker maker doer iterate personas user story
                   &lt;/a>
                 &lt;/h4>
-                &lt;p class="categories__content__author">
+                &lt;p class="recentpost__content__author">
                   Author: John Doe
                 &lt;/p>
               &lt;/div>
@@ -586,17 +587,17 @@
                 <span class="list__circle"></span>
               </div>
               <div class="col-sm-5 col-md-3 col-xs-8">
-                <p>
+                <p class="list__variable">
                   John Doe
                 </p>
               </div>
               <div class="col-md-4 col-sm-4 col-xs-5 hidden-xs">
-                <p>
+                <p class="list__variable">
                   Developer
                 </p>
               </div>
               <div class="col-md-3 hidden-sm hidden-xs">
-                <p>
+                <p class="list__variable">
                   Vilnius
                 </p>
               </div>
@@ -611,17 +612,17 @@
                 <span class="list__circle"></span>
               </div>
               <div class="col-sm-5 col-md-3 col-xs-8">
-                <p>
+                <p class="list__variable">
                   John Doe
                 </p>
               </div>
               <div class="col-md-4 col-sm-4 col-xs-5 hidden-xs">
-                <p>
+                <p class="list__variable">
                   Developer
                 </p>
               </div>
               <div class="col-md-3 hidden-sm hidden-xs">
-                <p>
+                <p class="list__variable">
                   Vilnius
                 </p>
               </div>
@@ -636,17 +637,17 @@
                 <span class="list__circle"></span>
               </div>
               <div class="col-sm-5 col-md-3 col-xs-8">
-                <p>
+                <p class="list__variable">
                   John Doe
                 </p>
               </div>
               <div class="col-md-4 col-sm-4 col-xs-5 hidden-xs">
-                <p>
+                <p class="list__variable">
                   Developer
                 </p>
               </div>
               <div class="col-md-3 hidden-sm hidden-xs">
-                <p>
+                <p class="list__variable">
                   Vilnius
                 </p>
               </div>
@@ -667,11 +668,11 @@
     <pre class="js-markup js-list">
       <span class="close-icon js-close fa fa-times"></span>
         <code class="language-markup">
-          &lt;div class="list">
-            &lt;div class="list__title hidden-xs">
-              &lt;div class="row">
+          &lt;div class="col-xs-12">
+            &lt;div class="list">
+              &lt;div class="list__title hidden-xs">
+                &lt;div class="row">
                 &lt;div class="col-md-1 col-sm-1">
-
                 &lt;/div>
                 &lt;div class="col-sm-5 col-md-3">
                   &lt;p>
@@ -689,7 +690,6 @@
                   &lt;/p>
                 &lt;/div>
                 &lt;div class="col-md-1">
-
                 &lt;/div>
               &lt;/div>
             &lt;/div>
@@ -699,17 +699,17 @@
                   &lt;span class="list__circle">&lt;/span>
                 &lt;/div>
                 &lt;div class="col-sm-5 col-md-3 col-xs-8">
-                  &lt;p>
+                  &lt;p class="list__variable">
                     John Doe
                   &lt;/p>
                 &lt;/div>
                 &lt;div class="col-md-4 col-sm-4 col-xs-5 hidden-xs">
-                  &lt;p>
+                  &lt;p class="list__variable">
                     Developer
                   &lt;/p>
                 &lt;/div>
                 &lt;div class="col-md-3 hidden-sm hidden-xs">
-                  &lt;p>
+                  &lt;p class="list__variable">
                     Vilnius
                   &lt;/p>
                 &lt;/div>
