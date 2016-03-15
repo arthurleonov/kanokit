@@ -1,6 +1,6 @@
 # Kanso HTML/CSS Bootstrap UI Kit
 
-Hello there, designer are spoiled with UI kits that they can use, reuse and modify to their needs. What if there was UI kit for front-end developers. I created Kanso UI Kit for speed up my website building workflow to reuse most common elements. I found that I saved me a lot of time and I hope it will be usefull to everyone too. Let me walk you though it.
+Hello there, designers are spoiled with UI kits that they can use, reuse and modify to their needs. What if there was UI kit for front-end developers. I created Kanso UI Kit for speed up my website building workflow to reuse most common elements. I found that I saved me a lot of time and I hope it will be usefull to everyone too. Let me walk you though it.
 
 
 FAQ
