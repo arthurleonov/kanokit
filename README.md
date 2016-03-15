@@ -8,7 +8,11 @@ FAQ
 
 **How do I use it?**
 
-1. Open your terminal and type in: '''& git clone https://github.com/arthurleonov/kansokit'''
+1. Open your terminal and type in:
+```
+& git clone https://github.com/arthurleonov/kansokit
+
+```
 2. Alternatively you can use the [codepen demo](http://codepen.io/arthurleonov/full/dMpXVM/). Below the element you will find two buttons "Show HTML" & "Link to SCSS file". I made it so a person could take the needed code and proceed as fast as possible.
 
 **What are these funny css classes?**
