@@ -27,7 +27,8 @@ a:hover {
   padding-right: 15px;
 }
 .topnav__description {
-  margin-top: 50px;
+  display: block;
+  margin-top: 40px;
 }
 .topnav__svg {
   width: 85px;
