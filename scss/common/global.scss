@@ -19,9 +19,16 @@ a {
   text-align: center;
   &__title {
     display: block;
+    color: #77B34D;
   }
   &__link {
     padding-right: 15px;
+  }
+  &__description {
+    margin-top: 50px;
+  }
+  &__svg {
+    width: 85px;
   }
 }
 

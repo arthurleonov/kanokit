@@ -21,9 +21,16 @@ a:hover {
 }
 .topnav__title {
   display: block;
+  color: #77B34D;
 }
 .topnav__link {
   padding-right: 15px;
+}
+.topnav__description {
+  margin-top: 50px;
+}
+.topnav__svg {
+  width: 85px;
 }
 
 section {
