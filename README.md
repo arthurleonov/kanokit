@@ -8,12 +8,13 @@ FAQ
 
 **What are these funny css classes?**
 
-The css is written in BEM. I wanted to make it very modular and responsive so that if you drop it any context it should just work with minimal effort.
-
+The css is written in BEM. I wanted to make it very modular and responsive so that if you drop it any context it should just work with minimal effort. If you are not familiar with BEM
+        I highly recommend reading about it [here](http://webdesign.tutsplus.com/articles/an-introduction-to-the-bem-methodology--cms-19403) or watching about it [here](https://www.youtube.com/watch?v=IKFq2cSbQ4Q)
+        
 **Is Foundation version coming soon?**
 
 Yes it is coming shortly.
 
 **How do I use it?**
 
-You can clone the repository and open up index.html or you can use the codepen demo. Below the element you will find two buttons "Show HTML" & "Link to SCSS file". I made it so a person could take the needed code and proceed as fast as possible.
+You can clone the repository and open up index.html or you can use the [codepen demo](http://codepen.io/arthurleonov/full/dMpXVM/). Below the element you will find two buttons "Show HTML" & "Link to SCSS file". I made it so a person could take the needed code and proceed as fast as possible.
